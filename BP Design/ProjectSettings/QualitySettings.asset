@@ -224,8 +224,8 @@ QualitySettings:
     PS4: 5
     PSP2: 2
     Standalone: 5
-    WebGL: 3
+    WebGL: 5
     Windows Store Apps: 5
     XboxOne: 5
-    iPhone: 2
+    iPhone: 5
     tvOS: 2
