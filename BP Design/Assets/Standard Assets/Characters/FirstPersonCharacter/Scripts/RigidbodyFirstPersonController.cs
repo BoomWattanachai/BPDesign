@@ -119,7 +119,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 #if !MOBILE_INPUT
                 return movementSettings.Running;
 #else
-	            return false;
+                return false;
 #endif
             }
         }
@@ -229,15 +229,31 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private Vector2 GetInput()
         {
-
-            Vector2 input = new Vector2
+            Vector2 input;
+            if (RunAxis.x != 0 || RunAxis.y != 0)
             {
-                //x = CrossPlatformInputManager.GetAxis("Horizontal"),
-                //y = CrossPlatformInputManager.GetAxis("Vertical")
-                x = -RunAxis.x,
-                y = -RunAxis.y
+                input = new Vector2
+                {
+                    //x = CrossPlatformInputManager.GetAxis("Horizontal"),
+                    //y = CrossPlatformInputManager.GetAxis("Vertical")
+                    x = RunAxis.x,
+                    y = RunAxis.y
 
-            };
+                };
+            }
+            else
+            {
+                input = new Vector2
+                {
+                    x = CrossPlatformInputManager.GetAxis("Horizontal"),
+                    y = CrossPlatformInputManager.GetAxis("Vertical")
+                    //x = RunAxis.x,
+                    //y = RunAxis.y
+
+                };
+            }
+
+
             //Debug.Log("X : " + RunAxis.x + " " + "Y : " + RunAxis.y);
             movementSettings.UpdateDesiredTargetSpeed(input);
             return input;

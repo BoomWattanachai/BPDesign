@@ -24,11 +24,14 @@ public class ToggleVR : MonoBehaviour
     {
         if(XRSettings.loadedDeviceName == "cardboard")
         {
+            Debug.Log("None");
             StartCoroutine(LoadDevice("None"));
             //GameObject.Find("/Player/RigidBodyFPSController/MainCamera").GetComponent<TouchPosition>().layerMask = -1;
         }
         else
         {
+            Debug.Log("CardBoard");
+
             //GameObject.Find("/Player/RigidBodyFPSController/MainCamera").GetComponent<TouchPosition>().layerMask = ~(1 << 9 | 1 << 8);
             StartCoroutine(LoadDevice("cardboard"));
         }
