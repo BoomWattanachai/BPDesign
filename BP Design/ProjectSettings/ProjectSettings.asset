@@ -166,15 +166,7 @@ PlayerSettings:
   applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
   AndroidMinSdkVersion: 19
-=======
-  AndroidMinSdkVersion: 21
->>>>>>> 64af95f3b1a6661baf8f853f54e766074f734850
-=======
-  AndroidMinSdkVersion: 19
->>>>>>> 3149c51ca45a64f5189008ef6b9702210ff670b7
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
