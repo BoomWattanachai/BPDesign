@@ -17,13 +17,13 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   mode:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0
   intensity:
-    overrideState: 0
+    overrideState: 1
     value: 0
   color:
-    overrideState: 0
+    overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
   ambientOnly:
     overrideState: 0
@@ -66,16 +66,16 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.5
   threshold:
-    overrideState: 0
+    overrideState: 1
     value: 1
   softKnee:
     overrideState: 0
     value: 0.5
   clamp:
-    overrideState: 0
+    overrideState: 1
     value: 65472
   diffusion:
     overrideState: 0
@@ -113,25 +113,25 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   preset:
-    overrideState: 0
+    overrideState: 1
     value: 2
   maximumIterationCount:
-    overrideState: 0
+    overrideState: 1
     value: 16
   resolution:
-    overrideState: 0
+    overrideState: 1
     value: 0
   thickness:
-    overrideState: 0
+    overrideState: 1
     value: 8
   maximumMarchDistance:
-    overrideState: 0
-    value: 100
+    overrideState: 1
+    value: 30
   distanceFade:
-    overrideState: 0
+    overrideState: 1
     value: 0.5
   vignette:
-    overrideState: 0
+    overrideState: 1
     value: 0.5
 --- !u!114 &-4788494072625317597
 MonoBehaviour:
@@ -150,13 +150,13 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   filtering:
-    overrideState: 0
-    value: {x: 50, y: 95}
+    overrideState: 1
+    value: {x: 68.74752, y: 82.619576}
   minLuminance:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -1.5
   maxLuminance:
-    overrideState: 0
+    overrideState: 1
     value: 0
   keyValue:
     overrideState: 0
@@ -207,15 +207,15 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
+    overrideState: 1
     value: 1
   externalLut:
     overrideState: 0
     value: {fileID: 0}
     defaultState: 1
   tonemapper:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 2
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -242,8 +242,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 4.9
   tint:
     overrideState: 0
     value: 0
@@ -254,8 +254,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   saturation:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -17
   brightness:
     overrideState: 0
     value: 0
@@ -263,8 +263,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   contrast:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 24
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -1518,7 +1518,7 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   mode:
-    overrideState: 0
+    overrideState: 1
     value: 0
   color:
     overrideState: 0
@@ -1527,8 +1527,8 @@ MonoBehaviour:
     overrideState: 0
     value: {x: 0.5, y: 0.5}
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.33
   smoothness:
     overrideState: 0
     value: 0.2
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
